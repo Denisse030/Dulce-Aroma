@@ -1,11 +1,12 @@
-# Café Dulce Aroma
+# **Café Dulce Aroma**
 
-A cozy and interactive coffee and pastry website built with **React**, **Tailwind CSS**, and **Leaflet**. Explore café recipes, brewing steps, personal favorite café recommendations, and submit your own questions, café recommendations, or if you've tried out any of the recipes using the contact form.
+A cozy and interactive coffee and pastry website built with **React**, **Tailwind CSS**, and **Leaflet**. Explore cafe recipes, the brew bar, personal favorite cafe recommendations, and submit your own questions, cafe recs, or if you've tried out any of the recipes using the contact form.
+
 ---
 
 ## **Demo**
 
-> Link to live demo (if hosted)
+> Link to live demo
 
 ---
 
