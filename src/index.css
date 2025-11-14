@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Lustria&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: Alice;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
+}
+
+.animation-delay-300 {
+  animation-delay: 0.3s;
+}
