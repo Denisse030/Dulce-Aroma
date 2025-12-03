@@ -4,9 +4,9 @@ A cozy and interactive coffee and pastry website built with **React**, **Tailwin
 
 ---
 
-## **Demo**
+## **Live Site**
 
-> Link to live demo
+* [Cafe Dulce Aroma](https://cafe-dulce-aroma.netlify.app/)
 
 ---
 
