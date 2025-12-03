@@ -16,7 +16,7 @@ const Navbar = () => {
     }, [showMobileMenu])
 
   return (
-    <div className='absolute top-0 left-0 w-full z-10'>
+    <div className='fixed md:absolute top-0 left-0 w-full z-[9999] bg-[#f9dfca] md:bg-transparent'>
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
         <img className="w-34 sm:w-42 md:w-54 lg:w-38 h-auto rounded-full" src={assets.logo} alt='' />
         <ul className="hidden md:flex gap-6 text-[15px] font-medium">

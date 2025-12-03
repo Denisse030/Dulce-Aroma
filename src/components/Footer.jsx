@@ -13,8 +13,8 @@ const Footer = () => {
             <p>@ 2025 Denisse Benito. All rights reserved.</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href="https://github.com/Denisse030/Dulce-Aroma" className='hover:underline text-[#501249]'>GitHub</a></li>
-                <li><a target='_blank' href="https://www.linkedin.com/in/denissebenito/" className='hover:underline text-[#501249]'>LinkedIn</a></li>
-                <li><a target='_blank' href="https://denissebenito.com/" className='hover:underline text-[#501249]'>Portfolio</a></li>
+                <li><a target='_blank' href="https://www.linkedin.com/" className='hover:underline text-[#501249]'>LinkedIn</a></li>
+                <li><a target='_blank' href="" className='hover:underline text-[#501249]'>Portfolio</a></li>
             </ul>
         </div>
     </div>

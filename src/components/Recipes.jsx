@@ -46,7 +46,7 @@ const Recipes = () => {
         </button>
       </div>
 
-      <div className="overflow-hidden">
+      <div className="overflow-x-auto snap-x snap-mandatory">
         <div className="flex gap-8 transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)` }}>
           {recipesData.map((recipe, index) => (
             <div key={index} className={`flex-none ${cardsToShow === 1 ? 'w-full' : cardsToShow === 2 ? 'w-1/2' : 'w-1/3'} relative`}>
