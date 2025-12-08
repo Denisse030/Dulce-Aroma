@@ -1,8 +1,6 @@
 import logo from './logo.jpg'
 import cross_icon from './cross_icon.svg'
 import menu_icon from './menu_icon.svg'
-import left_arrow from './left_arrow.svg'
-import right_arrow from './right_arrow.svg'
 import header_img from './header_img.png'
 import brand_img from './brand_img.png'
 import recipe_img_1 from './recipe_img_1.jpg'
@@ -34,8 +32,6 @@ export const assets = {
     recipe_img_9,
     brewing_bar,
     drinks,
-    left_arrow,
-    right_arrow,
 }
 
 export const recipesData = [

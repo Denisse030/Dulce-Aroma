@@ -37,15 +37,6 @@ const Recipes = () => {
         </p>
       </div>
 
-      <div className="flex justify-end items-center mb-8 gap-2">
-        <button onClick={prevRecipe} className="p-3 bg-[#c29b86] rounded shadow hover:bg-[#b87a65] transition-colors" aria-label="Previous Recipe">
-            <img src={assets.left_arrow} alt="Previous" />
-        </button>
-        <button onClick={nextRecipe} className="p-3 bg-[#c29b86] rounded shadow hover:bg-[#b87a65] transition-colors" aria-label="Next Recipe">
-          <img src={assets.right_arrow} alt="Next" />
-        </button>
-      </div>
-
       <div className="overflow-x-auto snap-x snap-mandatory">
         <div className="flex gap-8 transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)` }}>
           {recipesData.map((recipe, index) => (
